@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.hs.emirim.s2019w04.mirimmenutest.MainActivity">
+    <item
+        android:title="빨강배경"
+        android:id="@+id/itemRed"/>
+    <item
+        android:title="초록배경"
+        android:id="@+id/itemGreen"/>
+    <item
+        android:title="파랑배경"
+        android:id="@+id/itemBlue"/>
+    <item
+        android:title="버튼모양변경">
+        <menu>
+            <item
+                android:id="@+id/rotate_45"
+                android:title="45도회전"/>
+            <item
+                android:id="@+id/scale_2"
+                android:title="2배확대"/>
+        </menu>
+    </item>
+</menu>
