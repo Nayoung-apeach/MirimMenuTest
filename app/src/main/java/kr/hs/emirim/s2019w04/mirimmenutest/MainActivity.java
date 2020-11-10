@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater mInflater = getMenuInflater();
         mInflater.inflate(R.menu.menu_main, menu);
         return true;
+
     }
 
     @Override
